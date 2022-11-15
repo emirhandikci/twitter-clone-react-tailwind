@@ -1,7 +1,15 @@
+import React from "react";
+import Container from "./layouts/Container";
+import Control from "./layouts/Control";
+import Flow from "./layouts/Flow";
+import Trending from "./layouts/Trending";
+
 export default function App() {
   return (
-    <h1 className="bg-primary-main">
-      Hello world!
-    </h1>
+    <Container>
+      <Control />
+      <Flow />
+      <Trending />
+    </Container>
   )
 }
